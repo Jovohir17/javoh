@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Akira";
+    src: url("../../../fonts/Akira.otf") format("opentype");
+}
+
+.loading-screen.hidden {
+    opacity: 0; /* Прозрачность при скрытии */
+    pointer-events: none; /* Отключаем события мыши при скрытии */
+}
+
+.warning-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Цвет фона */
+    opacity: 1; /* Начальная прозрачность */
+    transition: opacity 0.5s ease-in-out; /* Анимация исчезновения */
+    z-index: 9;
+}
+
+.loading-screen h1 {
+    font-size: 5vw;
+    font-family: Akira;
+    font-weight: bold; /* Жирный шрифт */
+    color: white; /* Цвет текста */
+    margin: 5px; /* Отступы */
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeIn 0.6s ease-in-out forwards; /* Анимация появления */
+}
+
+.loading-screen h1:nth-child(1) {
+    animation-delay: 0.1s; /* Задержка для первого слова */
+}
+
+.loading-screen h1:nth-child(2) {
+    animation-delay: 0.4s; /* Задержка для второго слова */
+}
+
+.loading-screen h1:nth-child(3) {
+    animation-delay: 0.6s; /* Задержка для третьего слова */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
