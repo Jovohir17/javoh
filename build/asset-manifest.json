@@ -1,28 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.10023905.css",
-    "main.js": "/static/js/main.83834b90.js",
-    "static/media/Afterglow-Regular.ttf": "/static/media/Afterglow-Regular.4bb53175e9bf1ae8cfbd.ttf",
+    "main.css": "/static/css/main.5cd75b0b.css",
+    "main.js": "/static/js/main.9fa1b87a.js",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
-    "static/media/Gyahegi.otf": "/static/media/Gyahegi.be6fda855e209aac59ea.otf",
-    "static/media/HeavyDEMO.otf": "/static/media/HeavyDEMO.a1c041a8d8e27fc771db.otf",
-    "static/media/Letter.ttf": "/static/media/Letter.2d8418136352be4f074c.ttf",
-    "static/media/Leky.otf": "/static/media/Leky.3bd91f1cdb2de3ef31cf.otf",
-    "static/media/Cigra.ttf": "/static/media/Cigra.02d0b62a908b5848fcdc.ttf",
-    "static/media/a_groticlt-bolditalic.ttf": "/static/media/a_groticlt-bolditalic.638baddfbe47eb0c6cd1.ttf",
     "static/media/DrukWideCyTTMedium.ttf": "/static/media/DrukWideCyTTMedium.e4122dc898e91a9f35a3.ttf",
-    "static/media/Buba.ttf": "/static/media/Buba.45a212df4f5a682cc9de.ttf",
-    "static/media/Rockabye-Regular.otf": "/static/media/Rockabye-Regular.44d8e60c5e39f2b332a3.otf",
     "static/media/Akira.otf": "/static/media/Akira.5198553380d9bb727554.otf",
-    "static/media/Margin.otf": "/static/media/Margin.5da5c7ad9f35173b82fd.otf",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.10023905.css.map": "/static/css/main.10023905.css.map",
-    "main.83834b90.js.map": "/static/js/main.83834b90.js.map"
+    "main.5cd75b0b.css.map": "/static/css/main.5cd75b0b.css.map",
+    "main.9fa1b87a.js.map": "/static/js/main.9fa1b87a.js.map"
   },
   "entrypoints": [
-    "static/css/main.10023905.css",
-    "static/js/main.83834b90.js"
+    "static/css/main.5cd75b0b.css",
+    "static/js/main.9fa1b87a.js"
   ]
 }
