@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cd75b0b.css",
-    "main.js": "/static/js/main.9fa1b87a.js",
+    "main.css": "/static/css/main.fe1e30a0.css",
+    "main.js": "/static/js/main.fd2e678b.js",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/DrukWideCyTTMedium.ttf": "/static/media/DrukWideCyTTMedium.e4122dc898e91a9f35a3.ttf",
     "static/media/Akira.otf": "/static/media/Akira.5198553380d9bb727554.otf",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.5cd75b0b.css.map": "/static/css/main.5cd75b0b.css.map",
-    "main.9fa1b87a.js.map": "/static/js/main.9fa1b87a.js.map"
+    "main.fe1e30a0.css.map": "/static/css/main.fe1e30a0.css.map",
+    "main.fd2e678b.js.map": "/static/js/main.fd2e678b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd75b0b.css",
-    "static/js/main.9fa1b87a.js"
+    "static/css/main.fe1e30a0.css",
+    "static/js/main.fd2e678b.js"
   ]
 }
