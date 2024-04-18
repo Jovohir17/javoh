@@ -138,7 +138,7 @@ function Section__eng() {
 
                                     </div>
 
-                                    <a href="https://pizza-gold-one.vercel.app/">
+                                    <a href="https://www.gyper.kz/">
 
                                         <button>
                                             {t('section.read')}
