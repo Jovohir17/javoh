@@ -373,7 +373,6 @@ a{
   }
   .main__backround .dd section .d-flexx .card1 button{
     background:#fff;
-    background:var(--White,#fff);
     border:0;
     border-radius:10px;
     color:#f7bb67;
@@ -385,7 +384,7 @@ a{
     height:58.626px;
     line-height:26px;
     margin-left:35%;
-    margin-top:10%;
+    margin-top: 19%;
     position:absolute;
     width:35%;
     letter-spacing: 0.21px;
@@ -437,11 +436,17 @@ a{
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     text-transform:lowercase
   }
-  .main__backround .dd section .d-flexx .card2 img{
-    flex-shrink:0;
-    margin-left:5%;
-    margin-top:-10%;
-    width:90%
+
+  .center {
+    justify-content: center;
+    display: flex;
+
+    .main__backround .dd section .d-flexx .card2 img {
+      flex-shrink: 0;
+      margin-left: 5%;
+      margin-top: -10%;
+      width: 80%;
+    }
   }
   .main__backround .dd section .d-flexx .card2 h3{
     color:#fff;
@@ -453,7 +458,6 @@ a{
     font-weight:400;
     height:124.615px;
     line-height:30px;
-    margin-top:-17%;
     text-align:center;
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     width:100%
@@ -1223,6 +1227,7 @@ a{
     display:none
   }
   .main__backround .dd section .d-flexx .card1 button{
+    margin-top: 9%;
     background:#fff;
     background:var(--White,#fff);
     border:0;
@@ -1236,7 +1241,6 @@ a{
     height:58.626px;
     line-height:26px;
     margin-left:35%;
-    margin-top:2%;
     position:absolute;
     width:35%
   }
@@ -1290,23 +1294,27 @@ a{
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     text-transform:lowercase
   }
-  .main__backround .dd section .d-flexx .card2 img{
-    flex-shrink:0;
-    margin-left:5%;
-    margin-top:-10%;
-    width:90%
+
+  .center {
+    justify-content: center;
+    display: flex;
+
+    .main__backround .dd section .d-flexx .card2 img {
+      width: 68%;
+      flex-shrink: 0;
+      margin-left: 5%;
+      margin-top: -10%;
+    }
   }
   .main__backround .dd section .d-flexx .card2 h3{
-    color:#fff;
     color:var(--White,#fff);
     flex-shrink:0;
     font-family:Microsoft Sans Serif;
-    font-size:20px;
+    font-size:19px;
     font-style:normal;
     font-weight:400;
     height:124.615px;
     line-height:30px;
-    margin-top:-17%;
     text-align:center;
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     width:100%
@@ -1699,6 +1707,7 @@ a{
     display:none
   }
   .main__backround .d-ff .Coder1,.main__backround .d-ff .Coder2{
+    animation: float 3.1s ease-in-out infinite;
     flex-shrink:0;
     width:100%
   }
@@ -2134,11 +2143,21 @@ a{
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     text-transform:lowercase
   }
-  .main__backround .dd section .d-flexx .card2 img{
-    flex-shrink:0;
-    margin-left:5%;
-    margin-top:-10%;
-    width:90%
+
+  .center {
+    justify-content: center;
+    display: flex;
+
+    img{
+      width: 54%;
+    }
+
+    .main__backround .dd section .d-flexx .card2 img {
+      flex-shrink: 0;
+      margin-left: 5%;
+      margin-top: -10%;
+      width: 57%;
+    }
   }
   .main__backround .dd section .d-flexx .card2 h3{
     color:#fff;
@@ -2150,7 +2169,6 @@ a{
     font-weight:400;
     height:124.615px;
     line-height:30px;
-    margin-top:-17%;
     text-align:center;
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     width:100%
@@ -2543,6 +2561,7 @@ a{
     margin-top:101px
   }
   .main__backround .d-ff .Coder1,.main__backround .d-ff .Coder2{
+    animation: float 3.1s ease-in-out infinite;
     flex-shrink:0;
     width:100%
   }
@@ -2859,6 +2878,7 @@ a{
     display:flex
   }
   section .d-flexx .card1{
+    animation: float 3.1s ease-in-out infinite;
     background:#f7bb67;
     border-radius:50px;
     flex-shrink:0;
@@ -2962,6 +2982,7 @@ a{
     transition:all .8s ease
   }
   section .d-flexx .card2{
+    animation: float 3.1s ease-in-out infinite;
     background:#95a2ed;
     border-radius:50px;
     flex-shrink:0;
@@ -2993,9 +3014,17 @@ a{
     text-transform:lowercase;
     width:149px
   }
-  section .d-flexx .card2 img{
-    flex-shrink:0;
-    margin-left:66px
+
+  .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+
+    section .d-flexx .card2 img {
+      flex-shrink: 0;
+      margin-left: 66px;
+      width: 56%;
+    }
   }
   section .d-flexx .card2 h3{
     color:#fff;
@@ -3008,7 +3037,6 @@ a{
     height:59px;
     line-height:30px;
     margin-left:18px;
-    margin-top:-50px;
     text-align:center;
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     width:469px
@@ -3070,12 +3098,14 @@ a{
     width:520px
   }
   section .d-flexx .div4{
+
     background:#ffa622;
     height:720px;
     margin-left:80px;
     margin-top:-108px
   }
   section .d-flexx .card3{
+    animation: float 3.1s ease-in-out infinite;
     background:#800aa8;
     border-radius:50px;
     flex-shrink:0;
@@ -3170,6 +3200,7 @@ a{
     transition:all .8s ease
   }
   section .d-flexx .card4{
+    animation: float 3.1s ease-in-out infinite;
     background:#ffa622;
     border-radius:50px;
     flex-shrink:0;
@@ -3239,10 +3270,10 @@ a{
     position:absolute
   }
   section .d-flexx .card4 img{
-    flex-shrink:0;
-    height:450px;
-    margin-left:40px;
-    width:450px
+    flex-shrink: 0;
+    height: 388px;
+    margin-left: 48px;
+    width: 417px;
   }
   section .d-flexx .card4:hover{
     border-radius:50px;
@@ -3464,6 +3495,7 @@ a{
     display:flex
   }
   footer .d-ff .Coder1{
+    animation: float 3.1s ease-in-out infinite;
     display:flex;
     margin-left:70px
   }
@@ -3834,6 +3866,7 @@ a{
     display:flex
   }
   section .d-flexx .card1{
+    animation: float 3.1s ease-in-out infinite;
     background:#f7bb67;
     border-radius:50px;
     flex-shrink:0;
@@ -3879,7 +3912,7 @@ a{
   }
   section .d-flexx .card1 .button__link{
     margin-left:182px;
-    margin-top:14px
+    margin-top: 69px;
   }
   section .d-flexx .card1 .button__link .dd1{
     color:#800a7a
@@ -3934,6 +3967,7 @@ a{
     transition:all .8s ease
   }
   section .d-flexx .card2{
+    animation: float 3.1s ease-in-out infinite;
     background:#95a2ed;
     border-radius:50px;
     flex-shrink:0;
@@ -4044,6 +4078,7 @@ a{
     position:absolute
   }
   section .d-flexx .card3{
+    animation: float 3.1s ease-in-out infinite;
     background:#800aa8;
     border-radius:50px;
     flex-shrink:0;
@@ -4139,6 +4174,7 @@ a{
     transition:all .8s ease
   }
   section .d-flexx .card4{
+    animation: float 3.1s ease-in-out infinite;
     background:#ffa622;
     border-radius:50px;
     flex-shrink:0;

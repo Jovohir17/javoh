@@ -38,9 +38,9 @@ function Section__eng() {
                         <div className="d-flexx">
                             <div className="card1">
                                 <div className="ddw">
-                                    <h2>maxway Site</h2>
+                                    <h2>Alum house</h2>
                                 </div>
-                                    <img src="./imgs/Gamburger.png" alt=""/>
+                                    <img src="./imgs/Dream-House.png" alt=""/>
 
 
                                     <h3>{t('section.Burger')}</h3>
@@ -51,7 +51,7 @@ function Section__eng() {
 
                                     </div>
 
-                                    <a href="https://max-way-full-site.vercel.app       ">
+                                    <a href="https://alumhouse.ru/">
 
                                         <button>
                                             {t('section.read')}
@@ -64,9 +64,13 @@ function Section__eng() {
 
 
                                 <div className="ddw">
-                                    <h2>atlas site</h2>
+                                    <h2>Vastiv Clean</h2>
                                 </div>
-                                <img src="../imgs/medicine.png" alt=""/>
+
+                                <div className="center">
+                                    <img src="../imgs/cleaning.png" alt=""/>
+                                </div>
+
                                 <h3>
                                 {t('section.medicines')}
                                 </h3>
@@ -99,9 +103,9 @@ function Section__eng() {
                         <div className="d-flexx">
                             <div className="card3">
                                 <div className="ddw">
-                                    <h2>Lochin Site</h2>
+                                    <h2>Converter</h2>
                                 </div>
-                                <img src="../imgs/basket.png" alt=""/>
+                                <img src="../imgs/converter.png" alt=""/>
                                 <h3>
                                 {t('section.medicines2')}
                                 </h3>
@@ -110,7 +114,7 @@ function Section__eng() {
 
                                     </div>
 
-                                    <a href="https://ajj-cyan.vercel.app/">
+                                    <a href="https://convertersimg.com/">
 
                                         <button>
                                             {t('section.read')}
@@ -123,9 +127,9 @@ function Section__eng() {
 
                             <div className="card4">
                                 <div className="ddw">
-                                    <h2>pizza Site</h2>
+                                    <h2>Backend KZ</h2>
                                 </div>
-                                <img src="./imgs/pizza.png" alt=""/>
+                                <img src="./imgs/gyper.png" alt=""/>
                                 <h3>
                                 {t('section.pizza')}
                                 </h3>
