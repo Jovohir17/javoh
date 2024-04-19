@@ -79,7 +79,7 @@ function Section__eng() {
 
                                     </div>
 
-                                    <a href="https://atlas-beta-rust.vercel.app/">
+                                    <a href="http://www.vastiv-clean.uz/">
                                         <button>
                                             {t('section.read')}
                                         </button>
