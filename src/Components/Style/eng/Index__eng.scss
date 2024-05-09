@@ -73,6 +73,10 @@ a{
   text-decoration:none
 }
 @media screen and (max-width:400px){
+  .mouse-tracker{
+    display: none;
+  }
+
   a{
     text-decoration:none
   }
@@ -933,6 +937,10 @@ a{
   }
 }
 @media screen and (min-width:401px)and (max-width:519px){
+  .mouse-tracker{
+    display: none;
+  }
+
   a{
     text-decoration:none
   }
@@ -1535,6 +1543,7 @@ a{
     width:90%
   }
   .main__backround .dd section .d-flexx .card4 h3{
+    margin-top: 20px;
     color:#fff;
     color:var(--White,#fff);
     flex-shrink:0;
@@ -1544,7 +1553,6 @@ a{
     font-weight:400;
     height:124.615px;
     line-height:30px;
-    margin-top:-35px;
     text-align:center;
     text-shadow:2px 2px 4px rgba(0,0,0,.3);
     width:100%
@@ -1783,6 +1791,10 @@ a{
   }
 }
 @media screen and (min-width:520px)and (max-width:640px){
+  .mouse-tracker{
+    display: none;
+  }
+
   a{
     text-decoration:none
   }
@@ -2637,6 +2649,25 @@ a{
   }
 }
 @media screen and (min-width:641px)and (max-width:2920px){
+
+  .mouse-tracker {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5vmin;
+    height: 5vmin;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    opacity: 0.8;
+    transform: translate(-50%, -50%) translate(
+                    var(--mouse-x),
+                    var(--mouse-y) // calc(var(--mouse-x) * 1px),
+      // calc(var(--mouse-y) * 1px)
+    );
+    pointer-events: none;
+  }
+
   .main__backround{
     background:#1f252e;
     display:grid;
@@ -2909,7 +2940,6 @@ a{
     display:flex
   }
   section .d-flexx .card1{
-    animation: float 3.1s ease-in-out infinite;
     background:#f7bb67;
     border-radius:50px;
     flex-shrink:0;
@@ -3013,7 +3043,6 @@ a{
     transition:all .8s ease
   }
   section .d-flexx .card2{
-    animation: float 3.1s ease-in-out infinite;
     background:#95a2ed;
     border-radius:50px;
     flex-shrink:0;
@@ -3136,7 +3165,6 @@ a{
     margin-top:-108px
   }
   section .d-flexx .card3{
-    animation: float 3.1s ease-in-out infinite;
     background:#800aa8;
     border-radius:50px;
     flex-shrink:0;
@@ -3231,7 +3259,6 @@ a{
     transition:all .8s ease
   }
   section .d-flexx .card4{
-    animation: float 3.1s ease-in-out infinite;
     background:#ffa622;
     border-radius:50px;
     flex-shrink:0;
@@ -4593,4 +4620,3 @@ a{
     margin-right:0
   }
 }
-/*# sourceMappingURL=main.10023905.css.map*/

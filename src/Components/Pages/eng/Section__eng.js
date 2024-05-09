@@ -8,6 +8,11 @@ import i18n from "../i18next"; // Или другой корректный пу�
 
 function Section__eng() {
 
+    document.addEventListener("mousemove", e => {
+        document.documentElement.style.setProperty("--mouse-x", e.clientX +'px');
+        document.documentElement.style.setProperty("--mouse-y", e.clientY +'px');
+    });
+
     const { t } = useTranslation(); // Получаем функцию t для перевода текстов
 
     const changeLanguage = (language) => {
@@ -79,7 +84,7 @@ function Section__eng() {
 
                                     </div>
 
-                                    <a href="https://atlas-beta-rust.vercel.app/">
+                                    <a href="http://www.vastiv-clean.uz/">
                                         <button>
                                             {t('section.read')}
                                         </button>
@@ -127,9 +132,9 @@ function Section__eng() {
 
                             <div className="card4">
                                 <div className="ddw">
-                                    <h2>Backend KZ</h2>
+                                    <h2>Mc DUCK</h2>
                                 </div>
-                                <img src="./imgs/gyper.png" alt=""/>
+                                <img src="./imgs/duck1.webp" alt=""/>
                                 <h3>
                                 {t('section.pizza')}
                                 </h3>
@@ -138,7 +143,7 @@ function Section__eng() {
 
                                     </div>
 
-                                    <a href="https://www.gyper.kz/">
+                                    <a href="https://mcduck.foundation/">
 
                                         <button>
                                             {t('section.read')}
@@ -162,7 +167,8 @@ function Section__eng() {
                 </div>
 
 
-
+                <div class="mouse-tracker">
+                </div>
             </>
         );
 }
