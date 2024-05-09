@@ -59,6 +59,13 @@ function Footer__eng() {
                         <img className="Coder2" src="../imgs/Coder2.png" alt=""/>
                     </div>
 
+                    <div class="df2">
+                        <p><span>©</span> vastiv.uz <span>, All Right Reserved.</span></p>
+
+                        <p class="design">Designed   By <span class="name"> <a href="https://joha.vercel.app/">Tursunov Jovohir </a></span></p>
+                    </div>
+
+
                 </footer>
             </div>
         </>
