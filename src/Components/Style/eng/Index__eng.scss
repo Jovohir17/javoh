@@ -28,6 +28,12 @@
   background-color: #000; /* Цвет фона скроллбара */
 }
 
+::selection {
+  color: #182538;
+  background-color: #95a1ae;
+}
+
+
 /* Стили для трека скроллбара (фон) */
 ::-webkit-scrollbar-track {
   background: #000; /* Цвет полоски скроллбара */
